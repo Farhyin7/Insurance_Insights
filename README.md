@@ -2,16 +2,17 @@
 This project utilizes a Linear Regression model to derive meaningful insights from an insurance dataset. The goal is to analyze the relationships between various features and the insurance charges to identify factors that contribute to the cost.
 
 **Table of Contents**
+
 **Introduction
-Dataset
-Project Flow
-Data Preprocessing
-Label Encoding
-One-Hot Encoding
-Handling Missing Values
-Standardization and Feature Scaling
-Removing Multicollinearity
-Linear Regression
+- Dataset
+- Project Flow
+- Data Preprocessing
+- Label Encoding
+- One-Hot Encoding
+- Handling Missing Values
+- Standardization and Feature Scaling
+- Removing Multicollinearity
+- Linear Regression
 Conclusion**
 ---------------------------------------------------
 
