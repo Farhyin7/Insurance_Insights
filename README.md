@@ -13,7 +13,7 @@ This project utilizes a Linear Regression model to derive meaningful insights fr
 - Standardization and Feature Scaling
 - Removing Multicollinearity
 - Linear Regression
-Conclusion**
+- Conclusion**
 ---------------------------------------------------
 
 
