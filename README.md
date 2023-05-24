@@ -10,6 +10,7 @@ This project utilizes a Linear Regression model to derive meaningful insights fr
 - Label Encoding
 - One-Hot Encoding
 - Handling Missing Values
+- Handling Outliers
 - Standardization and Feature Scaling
 - Removing Multicollinearity
 - Linear Regression
@@ -39,6 +40,9 @@ For categorical features with multiple categories, one-hot encoding is applied. 
 
 **Handling Missing Values**
 Missing values are identified and handled appropriately. Depending on the extent of missing data, options include removing the rows with missing values or imputing the missing values with appropriate techniques.
+
+**Handling Outliers**
+Outliers, which are extreme values that deviate significantly from the rest of the data, can affect the performance of the linear regression model. In this project, outliers are handled using the Interquartile Range (IQR) method. Any data points falling below Q1 - 1.5 * IQR or above Q3 + 1.5 * IQR are considered outliers and are either removed or replaced with appropriate values.
 
 **Standardization and Feature Scaling**
 To ensure all features have a similar scale, standardization and feature scaling techniques such as Z-score normalization or Min-Max scaling are applied. This step is particularly important for linear regression models, as it helps to avoid biased coefficients due to varying scales.
